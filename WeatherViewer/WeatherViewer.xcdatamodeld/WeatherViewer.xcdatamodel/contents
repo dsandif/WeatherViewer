@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="SavedCurrentWeather" representedClassName=".SavedCurrentWeather" syncable="YES">
+        <attribute name="cityId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateTimestamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherSummary" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SavedForecast" syncable="YES">
+        <attribute name="cityId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateTimestamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weatherSummary" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SavedCurrentWeather" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="SavedForecast" positionX="-54" positionY="18" width="128" height="30"/>
+    </elements>
+</model>
