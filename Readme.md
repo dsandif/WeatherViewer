@@ -1,4 +1,5 @@
-# The WeatherViewer project uses CocoaPods Dependency Manager
+#WeatherViewer for iOS 
+The WeatherViewer project uses CocoaPods Dependency Manager
 
 To Run WeatherViewer without Errors, you must open the WORKSPACE and not the project
 
