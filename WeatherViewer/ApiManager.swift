@@ -20,8 +20,8 @@ class Endpoints{
     let currentEndpoint = "http://api.openweathermap.org/data/2.5/group?id="
     let fiveDayEndpoint = "http://api.openweathermap.org/data/2.5/forecast?id="
     
-    //API keys
-    let apiKey: String = "8ee13469ef09c40046ae2029f5a8c7f6"
+    //API keys -- Add yours
+    let apiKey: String = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     
     /**
      Gets a 5 day forecast for a city
